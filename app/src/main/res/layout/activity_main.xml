@@ -21,19 +21,21 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
+        android:background="#5e5e"
+        android:layout_marginStart="0dp"
         android:layout_marginTop="100dp"
-        android:text=""
+        android:text="Texto de prueba"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="124dp"
+        android:background="#6f6f6f"
+        android:layout_marginStart="0dp"
         android:layout_marginTop="172dp"
         android:text="Enviar"
         app:layout_constraintStart_toStartOf="parent"
